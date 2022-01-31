@@ -1,0 +1,16 @@
+@use "../abstracts/variables" as *;
+
+.card {
+  &__button {
+    width: 100%;
+    height: 61px;
+    border-radius: 15px;
+    &--ios {
+      background-color: $black;
+    }
+
+    &--android {
+      background-color: $white;
+    }
+  }
+}
